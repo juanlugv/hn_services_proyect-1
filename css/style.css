@@ -1,0 +1,213 @@
+body {
+  font-family: 'Roboto';
+  width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+}
+
+form {
+  width: 960px;
+  margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+select {
+  background-color: #fff;
+  background-image: none;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 40px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 10px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+#lastname {
+  width: 96%;
+  margin-right: 4%;
+}
+
+#firstname {
+  width: 96%;
+}
+
+#mail {
+  width: 96%;
+}
+
+#request {
+  resize: none;
+  width: 96%;
+}
+
+#country {
+  width: 96%;
+}
+
+.dropdown-menu {
+  font-family: 'Roboto';
+  background-color: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.dropdown-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown-menu>ul>li {
+  display: inline-block;
+  position: relative;
+  padding: 10px;
+}
+
+.dropdown-menu>ul>li>a {
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
+}
+
+.dropdown-menu>ul>li:hover>ul {
+  display: block;
+}
+
+.dropdown-menu>ul>li>ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 200px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top: none;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 5px 5px;
+}
+
+.dropdown-menu>ul>li>ul>li {
+  display: block;
+  padding: 5px;
+}
+
+.dropdown-menu>ul>li>ul>li>a {
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.2s ease-in-out;
+}
+
+.dropdown-menu>ul>li>ul>li:hover>a {
+  color: #000000;
+  background-color: #b9b9b9;
+  border-radius: 5px;
+}
+
+.dropdown-menu>ul>li>ul>li>ul {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  min-width: 200px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-left: none;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 0 5px 5px 5px;
+}
+
+.dropdown-menu>ul>li>ul>li:hover>ul {
+  display: block;
+}
+
+.dropdown-menu>ul>li>ul>li>ul>li {
+  display: block;
+  padding: 5px;
+}
+
+.dropdown-menu>ul>li>ul>li>ul>li>a {
+  color: #333;
+  text-decoration: none;
+}
+
+#workpicture {
+  margin: 10px 20px;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content {
+  flex: 1;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+img#menupicture {
+  width: 390px;
+  height: 250px;
+  float: right;
+  margin-top: 110px;
+}
